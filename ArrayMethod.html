@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ar=[10,20,30,40,50];
+        // console.log(ar);
+        // ar.push(99);
+        // console.log(ar);
+
+        // ar.pop();
+        // console.log(ar)
+        // console.log(ar.pop());
+        // console.log(ar.shift());
+        // console.log(ar.unshift(222));
+        // console.log(ar);
+
+        // console.log(ar.splice(1,1));
+        // console.log(ar);
+        // let ans=ar.some(isPresent);
+        // console.log(ans);
+        // function isPresent(num){
+        //     return num==20;
+        // }
+        // let an=ar.every(isPresent);
+        //  console.log(an);
+
+    //   let a=ar.find(isPresent);
+    //   console.log(a);
+    //   let b=ar.findIndex(isPresent);
+    //   console.log(b);
+    //   function isPresent(num){
+    //     return num>20;
+    // }
+    let m=ar.map((x)=>{
+        return x*x;
+    });
+    console.log(m);
+    let f=ar.filter((x)=>{
+        return x>30;
+    })
+    console.log(f);
+    let r=ar.reduce((x)=>{
+        return x-50;
+    });
+    console.log(r);
+    </script>
+</body>
+</html>
