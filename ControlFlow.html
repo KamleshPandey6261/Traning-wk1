@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+     let hindi=Number(prompt("Enter the hindi marks :"));
+     let eng=Number(prompt("Enter the english marks :"));
+     let  math=Number(prompt("Enter the math marks :"));
+     let  sanskrit=Number(prompt("Enter the Sanskrit marks :"));
+     let socialScience=Number(prompt("Enter the Social Science marks :"));
+     let science =Number(prompt("Enter the Science marks :"));
+     let  per=(hindi+eng+math+sanskrit+socialScience+science)/6;
+if(hindi>=35 && eng>=35 && math>=35 && sanskrit>=35 && socialScience >=35 && science>=35 ){
+
+    if(per>=60){
+        console.log("Great you passed in first division !",per);
+    }
+   else if(per<60 && per >=50){
+        console.log(" Great you passed in second division !",per);
+    }
+    else if(per<50 && per >=35){
+        console.log("Great you passed in third division ",per);
+    }
+}
+ else{
+        console.log(" You failed") ;
+    }
+</script>
+</body>
+</html>
